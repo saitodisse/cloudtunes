@@ -2,3 +2,4 @@ dump.rdb
 .idea/
 *.pyc
 /.azk
+cloudtunes-webapp/.bundle
