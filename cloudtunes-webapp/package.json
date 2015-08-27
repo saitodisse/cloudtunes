@@ -22,9 +22,8 @@
     "sass-brunch": "*",
     "handlebars-brunch": "*",
     "uglify-js-brunch": "*",
-    "clean-css-brunch": "*"
+    "clean-css-brunch": "*",
+    "brunch": "^1.8.5",
+    "http-server": "^0.8.0"
   },
-  "devDependencies": {
-    "brunch": "^1.8.5"
-  }
 }

@@ -9,10 +9,10 @@ systems({
     ],
     workdir: "/azk/#{system.name}",
     shell: "/bin/bash",
-    // command: "node_modules/.bin/brunch build --env config-dist.coffee",
+    command: "node_modules/.bin/http-server build/",
     wait: 20,
     mounts: {
-      '/azk/#{system.name}': sync("./cloudtunes-webapp"),
+      '/azk/#{system.name}': path("./cloudtunes-webapp"),
 
       // node
       '/azk/#{system.name}/node_modules': persistent("./node_modules"),

@@ -24,6 +24,7 @@ exports.config =
     plugins:
         sass:
             debug: 'comments'
+            useBundler: true
 
     files:
         javascripts:
