@@ -3,3 +3,4 @@ dump.rdb
 *.pyc
 /.azk
 cloudtunes-webapp/.bundle
+.env
